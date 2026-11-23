@@ -1,0 +1,40 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs & temporary files
+*.log
+*.tmp
+.pytest_cache/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Security & Secrets (STRICT ZERO-LEAK)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+id_rsa
+*.pfx
